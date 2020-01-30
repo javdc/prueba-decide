@@ -74,7 +74,7 @@ MODULES = [
 ]
 
 #BASEURL = 'http://localhost:8000'
-BASEURL = 'https://decide-articuno.herokuapp.com'
+BASEURL = 'https://decide-articuno-m4.herokuapp.com'
 
 APIS = {
     'authentication': BASEURL,
@@ -193,7 +193,7 @@ TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 STATIC_URL = '/static/'
 
 # number of bits for the key, all auths should use the same number of bits
-KEYBITS = 161
+KEYBITS = 16
 
 # Versioning
 ALLOWED_VERSIONS = ['v1', 'v2']
